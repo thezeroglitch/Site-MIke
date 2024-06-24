@@ -1,0 +1,157 @@
+@font-face {
+    font-family: logo;
+    src: url(pics/DESIGNER.otf);
+}
+
+* {
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item {
+    width: 100px;
+    height: 23px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: self-end;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 5;
+}
+#logo {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 60px; 
+    font-family: 'logo', sans-serif;
+    cursor: pointer;
+    width: 100%;
+    z-index: -1;
+}
+.bts{
+    background-color: rgb(0, 0, 0);
+    
+    padding: 28px 28px;
+    padding-top: 33px;
+    
+   
+}
+
+.bts:hover {
+    text-decoration: none;
+    background-color: rgb(186, 0, 0);
+    border-radius: 7px;
+    transition: 0.5s;
+    
+    
+}
+#pros {
+    padding-right: 22;
+}
+#about {
+    padding: 0 -8;
+    margin-right: -8;
+}
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
+    padding-bottom: 50px;
+
+}
+#hoodie {
+    border: 2px solid white;
+
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-top: -5;
+    margin-top: -170;
+    
+}
+#tshirt {
+    border: 2px solid white;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: -5;
+    margin-top: -192;
+   
+}
+#shirt {
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+#hood {
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+    
+}
+.hoodie {
+    width: 700px;
+    
+    }
+
+
+.shirt {
+    width: 700px;
+}
+#hood:hover {
+    background-color: #2c2c2c;
+    transition: 0.3s;
+    cursor: default;
+}
+#shirt:hover {
+    background-color: #2c2c2c;
+    transition: 0.3s;
+    cursor: default;
+}
+
+#shirtdes {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+}
+
+#hoodiedes {
+    width: 450px;
+    display: block;
+    margin-right: auto;
+}
+#hoodieman {
+    width: 300px;
+}
+#tshirtman {
+    width: 300px;
+}
+.models {
+
+    border: 4px solid rgb(138, 0, 0);
+    margin-top: 150px;
+    display: flex;
+    
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}

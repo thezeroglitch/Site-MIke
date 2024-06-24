@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Amazdoom';
+    src: url(pics/AmazDooMRight2.ttf);
+}
+@font-face {
+    font-family: logo;
+    src: url(pics/DESIGNER.otf);
+}
+* {
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+body {
+    background-color: black;
+}
+.item {
+    width: 100px;
+    height: 23px;
+    text-align: center;
+    background-color: black;
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: self-end;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 5;
+}
+#logo {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 60px; 
+    font-family: 'logo', sans-serif;
+    cursor: pointer;
+    width: 100%;
+    z-index: -1;
+}
+.texts {
+    text-align: center;
+    margin-top: 150px;
+    
+    width: 100%;
+}
+#welcome {
+    display: inline-block;
+    font-family: 'Amazdoom', sans-serif;
+    font-size: 6em;
+    cursor: default;
+    transition: font-size 1s ease; 
+    
+}
+#welcome:hover {
+    font-size: 7em;
+}
+#blahblah {
+    
+    margin-top: -70px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+#blahblah2 {
+    margin-top: -30px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+#Safid {
+    position: absolute;
+    width: 550px;
+    
+    margin-top: -360px;
+    margin-left: 750px;
+    opacity: 85%;
+    z-index: -1;
+}
+.bts {
+    background-color: rgb(0, 0, 0);
+    
+    padding: 28px 28px;
+    padding-top: 33px;
+    
+   
+}
+
+.bts:hover {
+    text-decoration: none;
+    background-color: rgb(186, 0, 0);
+
+    transition: 20ms;
+    
+}
+#pros {
+    padding-right: 17;
+}
+#about {
+    padding: 0 -8;
+    margin-right: -8;
+}
+
+
